@@ -97,6 +97,51 @@ nav a:hover {
     box-shadow: 0 0 0 4px rgba(0, 118, 255, 0.4);
 }
 
+.activity_6 {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border: 5px dashed #333333;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.activity_6 h2 {
+    text-align: center;
+    font-size: 70px;
+    transition: background-color 0.5s ease;
+}
+.activity_6 h2:hover {
+    transform: scale(1.2);
+    transition: font-size 0.3s ease-in-out, transform 0.3s ease-in-out;
+    color: salmon;
+}
+.activity_6 h3 {
+    font-size: 40px;
+}
+
+.activity_6 p {
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.activity_6 p:hover {
+    background-color: #444444;
+    transition: background-color 0.5s ease;
+    animation: P_SlowFloat 2s infinite ease-in-out;
+    color: #eec3fa;
+}
+
+@keyframes P_SlowFloat {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
 .misc1, .misc9 {
     color:  #FFFFB3;
 }
